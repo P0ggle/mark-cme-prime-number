@@ -244,3 +244,233 @@ Nov 06, 2024 10:05:17 PM org.example.PrimeChecking.PrimeChecker getPrimeSubseque
 INFO: Found in cache: 5
 Nov 06, 2024 10:05:17 PM org.example.PrimeChecking.PrimeChecker getPrimeSubsequences
 INFO: All prime numbers from input 12345: [2, 3, 5, 23]
+Nov 06, 2024 11:05:58 PM org.example.PrimeChecking.CacheManager loadCacheFromFile
+INFO: Cache loaded successfully from file: src/main/resources/cache/prime_cache.txt
+Nov 06, 2024 11:05:58 PM org.example.PrimeChecking.CacheManager <init>
+INFO: Current cache: [2, 3, 5, 23]
+Nov 06, 2024 11:06:07 PM org.example.PrimeChecking.PrimeChecker generateSubSequences
+INFO: Generated sub-sequences from input: 8273648 -> [73648, 7364, 48, 27, 8273, 82736, 273, 27364, 736, 73, 273648, 36, 8273648, 364, 2, 3, 4, 6, 7, 8, 82, 648, 827, 827364, 64, 2736, 3648]
+Nov 06, 2024 11:06:07 PM org.example.PrimeChecking.CacheManager savePrimes
+INFO: Prime saved to file and cache: 8273
+Nov 06, 2024 11:06:07 PM org.example.PrimeChecking.PrimeChecker getPrimeSubsequences
+INFO: Prime number found and added to cache: 8273
+Nov 06, 2024 11:06:07 PM org.example.PrimeChecking.CacheManager savePrimes
+INFO: Prime saved to file and cache: 73
+Nov 06, 2024 11:06:07 PM org.example.PrimeChecking.PrimeChecker getPrimeSubsequences
+INFO: Prime number found and added to cache: 73
+Nov 06, 2024 11:06:07 PM org.example.PrimeChecking.PrimeChecker getPrimeSubsequences
+INFO: Found in cache: 2
+Nov 06, 2024 11:06:07 PM org.example.PrimeChecking.PrimeChecker getPrimeSubsequences
+INFO: Found in cache: 3
+Nov 06, 2024 11:06:07 PM org.example.PrimeChecking.CacheManager savePrimes
+INFO: Prime saved to file and cache: 7
+Nov 06, 2024 11:06:07 PM org.example.PrimeChecking.PrimeChecker getPrimeSubsequences
+INFO: Prime number found and added to cache: 7
+Nov 06, 2024 11:06:07 PM org.example.PrimeChecking.CacheManager savePrimes
+INFO: Prime saved to file and cache: 827
+Nov 06, 2024 11:06:07 PM org.example.PrimeChecking.PrimeChecker getPrimeSubsequences
+INFO: Prime number found and added to cache: 827
+Nov 06, 2024 11:06:07 PM org.example.PrimeChecking.PrimeChecker getPrimeSubsequences
+INFO: All prime numbers from input 8273648: [8273, 2, 3, 7, 73, 827]
+Nov 06, 2024 11:06:14 PM org.example.PrimeChecking.CacheManager loadCacheFromFile
+INFO: Cache loaded successfully from file: src/main/resources/cache/prime_cache.txt
+Nov 06, 2024 11:06:14 PM org.example.PrimeChecking.CacheManager <init>
+INFO: Current cache: [8273, 2, 3, 5, 23, 7, 73, 827]
+Nov 06, 2024 11:06:20 PM org.example.PrimeChecking.CacheManager loadCacheFromFile
+INFO: Cache loaded successfully from file: src/main/resources/cache/prime_cache.txt
+Nov 06, 2024 11:06:20 PM org.example.PrimeChecking.CacheManager <init>
+INFO: Current cache: [8273, 2, 3, 5, 23, 7, 73, 827]
+Nov 06, 2024 11:06:23 PM org.example.PrimeChecking.PrimeChecker generateSubSequences
+INFO: Generated sub-sequences from input: 12312355 -> [23, 12312355, 3123, 23123, 231, 31235, 355, 312, 1235, 235, 12355, 12312, 31, 55, 12, 35, 1231, 312355, 1, 123, 2, 3, 123123, 2312, 5, 2355, 2312355, 1231235, 231235]
+Nov 06, 2024 11:06:23 PM org.example.PrimeChecking.PrimeChecker getPrimeSubsequences
+INFO: Found in cache: 23
+Nov 06, 2024 11:06:23 PM org.example.PrimeChecking.CacheManager savePrimes
+INFO: Prime saved to file and cache: 31
+Nov 06, 2024 11:06:23 PM org.example.PrimeChecking.PrimeChecker getPrimeSubsequences
+INFO: Prime number found and added to cache: 31
+Nov 06, 2024 11:06:23 PM org.example.PrimeChecking.CacheManager savePrimes
+INFO: Prime saved to file and cache: 1231
+Nov 06, 2024 11:06:23 PM org.example.PrimeChecking.PrimeChecker getPrimeSubsequences
+INFO: Prime number found and added to cache: 1231
+Nov 06, 2024 11:06:23 PM org.example.PrimeChecking.PrimeChecker getPrimeSubsequences
+INFO: Found in cache: 2
+Nov 06, 2024 11:06:23 PM org.example.PrimeChecking.PrimeChecker getPrimeSubsequences
+INFO: Found in cache: 3
+Nov 06, 2024 11:06:23 PM org.example.PrimeChecking.PrimeChecker getPrimeSubsequences
+INFO: Found in cache: 5
+Nov 06, 2024 11:06:23 PM org.example.PrimeChecking.PrimeChecker getPrimeSubsequences
+INFO: All prime numbers from input 12312355: [2, 3, 5, 23, 31, 1231]
+Nov 06, 2024 11:19:28 PM org.example.PrimeChecking.CacheManager loadCacheFromFile
+INFO: Cache loaded successfully from file: src/main/resources/cache/prime_cache.txt
+Nov 06, 2024 11:19:28 PM org.example.PrimeChecking.CacheManager <init>
+INFO: Current cache: [8273, 2, 3, 5, 23, 7, 73, 827, 11, 13, 31, 1231]
+Nov 06, 2024 11:19:30 PM org.example.PrimeChecking.PrimeChecker generateSubSequences
+INFO: Generated sub-sequences from input: 12345 -> [12, 23, 34, 45, 1, 123, 2, 234, 3, 345, 4, 1234, 2345, 5, 12345]
+Nov 06, 2024 11:19:30 PM org.example.PrimeChecking.PrimeChecker getPrimeSubsequences
+INFO: Found in cache: 23
+Nov 06, 2024 11:19:30 PM org.example.PrimeChecking.PrimeChecker getPrimeSubsequences
+INFO: Found in cache: 2
+Nov 06, 2024 11:19:30 PM org.example.PrimeChecking.PrimeChecker getPrimeSubsequences
+INFO: Found in cache: 3
+Nov 06, 2024 11:19:30 PM org.example.PrimeChecking.PrimeChecker getPrimeSubsequences
+INFO: Found in cache: 5
+Nov 06, 2024 11:19:30 PM org.example.PrimeChecking.PrimeChecker getPrimeSubsequences
+INFO: All prime numbers from input 12345: [2, 3, 5, 23]
+Nov 06, 2024 11:34:49 PM org.example.PrimeChecking.CacheManager loadCacheFromFile
+INFO: Cache loaded successfully from file: src/main/resources/cache/prime_cache.txt
+Nov 06, 2024 11:34:49 PM org.example.PrimeChecking.CacheManager <init>
+INFO: Current cache: [2, 3, 4, 5, 6, 7, 8, 73, 9, 10, 11, 13, 1231, 8273, 23, 827, 31]
+Nov 06, 2024 11:34:51 PM org.example.PrimeChecking.PrimeChecker generateSubSequences
+INFO: Generated sub-sequences from input: 817263 -> [7263, 26, 17263, 17, 817263, 172, 8172, 81726, 263, 1, 2, 3, 6, 7, 8, 81, 72, 726, 1726, 63, 817]
+Nov 06, 2024 11:34:51 PM org.example.PrimeChecking.CacheManager savePrimes
+INFO: Prime saved to file and cache: 17
+Nov 06, 2024 11:34:51 PM org.example.PrimeChecking.PrimeChecker getPrimeSubsequences
+INFO: Prime number found and added to cache: 17
+Nov 06, 2024 11:34:51 PM org.example.PrimeChecking.CacheManager savePrimes
+INFO: Prime saved to file and cache: 263
+Nov 06, 2024 11:34:51 PM org.example.PrimeChecking.PrimeChecker getPrimeSubsequences
+INFO: Prime number found and added to cache: 263
+Nov 06, 2024 11:34:51 PM org.example.PrimeChecking.PrimeChecker getPrimeSubsequences
+INFO: Found in cache: 2
+Nov 06, 2024 11:34:51 PM org.example.PrimeChecking.PrimeChecker getPrimeSubsequences
+INFO: Found in cache: 3
+Nov 06, 2024 11:34:51 PM org.example.PrimeChecking.PrimeChecker getPrimeSubsequences
+INFO: Found in cache: 6
+Nov 06, 2024 11:34:51 PM org.example.PrimeChecking.PrimeChecker getPrimeSubsequences
+INFO: Found in cache: 7
+Nov 06, 2024 11:34:51 PM org.example.PrimeChecking.PrimeChecker getPrimeSubsequences
+INFO: Found in cache: 8
+Nov 06, 2024 11:34:51 PM org.example.PrimeChecking.PrimeChecker getPrimeSubsequences
+INFO: All prime numbers from input 817263: [17, 2, 3, 6, 263, 7, 8]
+Nov 06, 2024 11:35:10 PM org.example.PrimeChecking.CacheManager loadCacheFromFile
+INFO: Cache loaded successfully from file: src/main/resources/cache/prime_cache.txt
+Nov 06, 2024 11:35:10 PM org.example.PrimeChecking.CacheManager <init>
+INFO: Current cache: []
+Nov 06, 2024 11:35:11 PM org.example.PrimeChecking.PrimeChecker generateSubSequences
+INFO: Generated sub-sequences from input: 12345 -> [12, 23, 34, 45, 1, 123, 2, 234, 3, 345, 4, 1234, 2345, 5, 12345]
+Nov 06, 2024 11:35:11 PM org.example.PrimeChecking.CacheManager savePrimes
+INFO: Prime saved to file and cache: 23
+Nov 06, 2024 11:35:11 PM org.example.PrimeChecking.PrimeChecker getPrimeSubsequences
+INFO: Prime number found and added to cache: 23
+Nov 06, 2024 11:35:11 PM org.example.PrimeChecking.CacheManager savePrimes
+INFO: Prime saved to file and cache: 2
+Nov 06, 2024 11:35:11 PM org.example.PrimeChecking.PrimeChecker getPrimeSubsequences
+INFO: Prime number found and added to cache: 2
+Nov 06, 2024 11:35:11 PM org.example.PrimeChecking.CacheManager savePrimes
+INFO: Prime saved to file and cache: 3
+Nov 06, 2024 11:35:11 PM org.example.PrimeChecking.PrimeChecker getPrimeSubsequences
+INFO: Prime number found and added to cache: 3
+Nov 06, 2024 11:35:11 PM org.example.PrimeChecking.CacheManager savePrimes
+INFO: Prime saved to file and cache: 5
+Nov 06, 2024 11:35:11 PM org.example.PrimeChecking.PrimeChecker getPrimeSubsequences
+INFO: Prime number found and added to cache: 5
+Nov 06, 2024 11:35:11 PM org.example.PrimeChecking.PrimeChecker getPrimeSubsequences
+INFO: All prime numbers from input 12345: [2, 3, 5, 23]
+Nov 06, 2024 11:35:21 PM org.example.PrimeChecking.CacheManager loadCacheFromFile
+INFO: Cache loaded successfully from file: src/main/resources/cache/prime_cache.txt
+Nov 06, 2024 11:35:21 PM org.example.PrimeChecking.CacheManager <init>
+INFO: Current cache: []
+Nov 06, 2024 11:35:22 PM org.example.PrimeChecking.PrimeChecker generateSubSequences
+INFO: Generated sub-sequences from input: 12345 -> [12, 23, 34, 45, 1, 123, 2, 234, 3, 345, 4, 1234, 2345, 5, 12345]
+Nov 06, 2024 11:35:22 PM org.example.PrimeChecking.CacheManager savePrimes
+INFO: Prime saved to file and cache: 23
+Nov 06, 2024 11:35:22 PM org.example.PrimeChecking.PrimeChecker getPrimeSubsequences
+INFO: Prime number found and added to cache: 23
+Nov 06, 2024 11:35:22 PM org.example.PrimeChecking.CacheManager savePrimes
+INFO: Prime saved to file and cache: 2
+Nov 06, 2024 11:35:22 PM org.example.PrimeChecking.PrimeChecker getPrimeSubsequences
+INFO: Prime number found and added to cache: 2
+Nov 06, 2024 11:35:22 PM org.example.PrimeChecking.CacheManager savePrimes
+INFO: Prime saved to file and cache: 3
+Nov 06, 2024 11:35:22 PM org.example.PrimeChecking.PrimeChecker getPrimeSubsequences
+INFO: Prime number found and added to cache: 3
+Nov 06, 2024 11:35:22 PM org.example.PrimeChecking.CacheManager savePrimes
+INFO: Prime saved to file and cache: 5
+Nov 06, 2024 11:35:22 PM org.example.PrimeChecking.PrimeChecker getPrimeSubsequences
+INFO: Prime number found and added to cache: 5
+Nov 06, 2024 11:35:22 PM org.example.PrimeChecking.PrimeChecker getPrimeSubsequences
+INFO: All prime numbers from input 12345: [2, 3, 5, 23]
+Nov 06, 2024 11:35:38 PM org.example.PrimeChecking.CacheManager loadCacheFromFile
+INFO: Cache loaded successfully from file: src/main/resources/cache/prime_cache.txt
+Nov 06, 2024 11:35:38 PM org.example.PrimeChecking.CacheManager <init>
+INFO: Current cache: []
+Nov 06, 2024 11:35:40 PM org.example.PrimeChecking.PrimeChecker generateSubSequences
+INFO: Generated sub-sequences from input: 12345 -> [12, 23, 34, 45, 1, 123, 2, 234, 3, 345, 4, 1234, 2345, 5, 12345]
+Nov 06, 2024 11:35:40 PM org.example.PrimeChecking.CacheManager savePrimes
+INFO: Prime saved to file and cache: 23
+Nov 06, 2024 11:35:40 PM org.example.PrimeChecking.PrimeChecker getPrimeSubsequences
+INFO: Prime number found and added to cache: 23
+Nov 06, 2024 11:35:40 PM org.example.PrimeChecking.CacheManager savePrimes
+INFO: Prime saved to file and cache: 2
+Nov 06, 2024 11:35:40 PM org.example.PrimeChecking.PrimeChecker getPrimeSubsequences
+INFO: Prime number found and added to cache: 2
+Nov 06, 2024 11:35:40 PM org.example.PrimeChecking.CacheManager savePrimes
+INFO: Prime saved to file and cache: 3
+Nov 06, 2024 11:35:40 PM org.example.PrimeChecking.PrimeChecker getPrimeSubsequences
+INFO: Prime number found and added to cache: 3
+Nov 06, 2024 11:35:40 PM org.example.PrimeChecking.CacheManager savePrimes
+INFO: Prime saved to file and cache: 5
+Nov 06, 2024 11:35:40 PM org.example.PrimeChecking.PrimeChecker getPrimeSubsequences
+INFO: Prime number found and added to cache: 5
+Nov 06, 2024 11:35:40 PM org.example.PrimeChecking.PrimeChecker getPrimeSubsequences
+INFO: All prime numbers from input 12345: [2, 3, 5, 23]
+Nov 06, 2024 11:35:51 PM org.example.PrimeChecking.CacheManager loadCacheFromFile
+INFO: Cache loaded successfully from file: src/main/resources/cache/prime_cache.txt
+Nov 06, 2024 11:35:51 PM org.example.PrimeChecking.CacheManager <init>
+INFO: Current cache: [2, 3, 5, 23]
+Nov 06, 2024 11:35:53 PM org.example.PrimeChecking.PrimeChecker generateSubSequences
+INFO: Generated sub-sequences from input: 12345 -> [12, 23, 34, 45, 1, 123, 2, 234, 3, 345, 4, 1234, 2345, 5, 12345]
+Nov 06, 2024 11:35:53 PM org.example.PrimeChecking.PrimeChecker getPrimeSubsequences
+INFO: Found in cache: 23
+Nov 06, 2024 11:35:53 PM org.example.PrimeChecking.PrimeChecker getPrimeSubsequences
+INFO: Found in cache: 2
+Nov 06, 2024 11:35:53 PM org.example.PrimeChecking.PrimeChecker getPrimeSubsequences
+INFO: Found in cache: 3
+Nov 06, 2024 11:35:53 PM org.example.PrimeChecking.PrimeChecker getPrimeSubsequences
+INFO: Found in cache: 5
+Nov 06, 2024 11:35:53 PM org.example.PrimeChecking.PrimeChecker getPrimeSubsequences
+INFO: All prime numbers from input 12345: [2, 3, 5, 23]
+Nov 06, 2024 11:36:50 PM org.example.PrimeChecking.CacheManager loadCacheFromFile
+INFO: Cache loaded successfully from file: src/main/resources/cache/prime_cache.txt
+Nov 06, 2024 11:36:50 PM org.example.PrimeChecking.CacheManager <init>
+INFO: Current cache: [2, 3, 5, 23]
+Nov 06, 2024 11:36:52 PM org.example.PrimeChecking.PrimeChecker generateSubSequences
+INFO: Generated sub-sequences from input: 287364 -> [287364, 7364, 36, 28, 28736, 287, 364, 2, 3, 873, 4, 2873, 6, 7, 8, 8736, 736, 87364, 73, 64, 87]
+Nov 06, 2024 11:36:52 PM org.example.PrimeChecking.PrimeChecker getPrimeSubsequences
+INFO: Found in cache: 2
+Nov 06, 2024 11:36:52 PM org.example.PrimeChecking.PrimeChecker getPrimeSubsequences
+INFO: Found in cache: 3
+Nov 06, 2024 11:36:52 PM org.example.PrimeChecking.CacheManager savePrimes
+INFO: Prime saved to file and cache: 7
+Nov 06, 2024 11:36:52 PM org.example.PrimeChecking.PrimeChecker getPrimeSubsequences
+INFO: Prime number found and added to cache: 7
+Nov 06, 2024 11:36:52 PM org.example.PrimeChecking.CacheManager savePrimes
+INFO: Prime saved to file and cache: 73
+Nov 06, 2024 11:36:52 PM org.example.PrimeChecking.PrimeChecker getPrimeSubsequences
+INFO: Prime number found and added to cache: 73
+Nov 06, 2024 11:36:52 PM org.example.PrimeChecking.PrimeChecker getPrimeSubsequences
+INFO: All prime numbers from input 287364: [2, 3, 7, 73]
+Nov 06, 2024 11:37:57 PM org.example.PrimeChecking.CacheManager loadCacheFromFile
+INFO: Cache loaded successfully from file: src/main/resources/cache/prime_cache.txt
+Nov 06, 2024 11:37:57 PM org.example.PrimeChecking.CacheManager <init>
+INFO: Current cache: [2, 3, 5, 23, 7, 73]
+Nov 06, 2024 11:38:18 PM org.example.PrimeChecking.PrimeChecker generateSubSequences
+INFO: Generated sub-sequences from input: 9871234 -> [23, 7123, 987123, 9871234, 871, 234, 1234, 712, 71, 98, 12, 34, 9871, 98712, 71234, 871234, 1, 123, 2, 3, 4, 7, 987, 8, 9, 8712, 87123, 87]
+Nov 06, 2024 11:38:18 PM org.example.PrimeChecking.PrimeChecker getPrimeSubsequences
+INFO: Found in cache: 23
+Nov 06, 2024 11:38:18 PM org.example.PrimeChecking.CacheManager savePrimes
+INFO: Prime saved to file and cache: 71
+Nov 06, 2024 11:38:18 PM org.example.PrimeChecking.PrimeChecker getPrimeSubsequences
+INFO: Prime number found and added to cache: 71
+Nov 06, 2024 11:38:18 PM org.example.PrimeChecking.CacheManager savePrimes
+INFO: Prime saved to file and cache: 9871
+Nov 06, 2024 11:38:18 PM org.example.PrimeChecking.PrimeChecker getPrimeSubsequences
+INFO: Prime number found and added to cache: 9871
+Nov 06, 2024 11:38:18 PM org.example.PrimeChecking.PrimeChecker getPrimeSubsequences
+INFO: Found in cache: 2
+Nov 06, 2024 11:38:18 PM org.example.PrimeChecking.PrimeChecker getPrimeSubsequences
+INFO: Found in cache: 3
+Nov 06, 2024 11:38:18 PM org.example.PrimeChecking.PrimeChecker getPrimeSubsequences
+INFO: Found in cache: 7
+Nov 06, 2024 11:38:18 PM org.example.PrimeChecking.PrimeChecker getPrimeSubsequences
+INFO: All prime numbers from input 9871234: [2, 3, 23, 71, 7, 9871]

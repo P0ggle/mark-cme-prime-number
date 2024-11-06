@@ -9,14 +9,13 @@ import java.util.logging.Logger;
 public class CacheManager {
     private static final Logger logger = Logger.getLogger(CacheManager.class.getName());
     private final Set<Integer> cache = new HashSet<>();
-    private final String filePath = "src/main/resources/cache/prime_cache.txt";
 
-    public CacheManager() {
-        loadCacheFromFile();
+    public CacheManager(String filePath) {
+        loadCacheFromFile(filePath);
         logger.info("Current cache: " + cache);
     }
 
-    private void loadCacheFromFile() {
+    private void loadCacheFromFile(String filePath) {
         try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
             String line;
             while ((line = reader.readLine()) != null) {
@@ -32,6 +31,7 @@ public class CacheManager {
     }
 
     public void savePrimes(Set<Integer> primes) {
+        String filePath = "src/main/resources/cache/prime_cache.txt";
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(filePath, true))) {
             for (Integer prime : primes) {
                 if (cache.add(prime)) {

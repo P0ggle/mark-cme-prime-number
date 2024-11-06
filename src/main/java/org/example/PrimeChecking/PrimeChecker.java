@@ -25,7 +25,7 @@ public class PrimeChecker {
         return subSequences;
     }
 
-    private boolean isPrime(int number) {
+    public boolean isPrime(int number) {
         if (number <= 1) {
             return false;
         }

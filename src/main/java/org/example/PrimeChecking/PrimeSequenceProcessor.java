@@ -13,10 +13,11 @@ public class PrimeSequenceProcessor {
     private final PrimeChecker primeChecker;
     private final CacheManager cacheManager;
 
-//  Constructor to be run from Main(), Cache manager has a constructor to populate the file into memory on runtime
+    //  Constructor to be run from Main(), Cache manager has a constructor to populate the file into memory on runtime
     public PrimeSequenceProcessor() {
         this.validation = ValidationFactory.getValidators();
-        this.cacheManager = new CacheManager();
+        String filePath = "src/main/resources/cache/prime_cache.txt";
+        this.cacheManager = new CacheManager(filePath);
         this.primeChecker = new PrimeChecker(this.cacheManager);
     }
 
@@ -58,12 +59,5 @@ public class PrimeSequenceProcessor {
 //      Display the results
         System.out.println("Prime numbers in sequence: " + allPrimes);
 
-        if (!cachedPrimes.isEmpty()) {
-            System.out.println("Note: The following primes were already cached and written to the file: " + cachedPrimes);
-        }
-
-        if (!newPrimes.isEmpty()) {
-            System.out.println("Newly found primes (now saved to cache and file): " + newPrimes);
-        }
     }
 }
