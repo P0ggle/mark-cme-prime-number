@@ -9,13 +9,29 @@ import java.util.logging.Logger;
 public class CacheManager {
     private static final Logger logger = Logger.getLogger(CacheManager.class.getName());
     private final Set<Integer> cache = new HashSet<>();
+    private final String filePath;
 
     public CacheManager(String filePath) {
-        loadCacheFromFile(filePath);
+        this.filePath = filePath;
+        ensureFileExists();
+        loadCacheFromFile();
         logger.info("Current cache: " + cache);
     }
 
-    private void loadCacheFromFile(String filePath) {
+    private void ensureFileExists() {
+        File file = new File(filePath);
+        try {
+            if (!file.exists()) {
+                file.getParentFile().mkdirs();
+                file.createNewFile();
+                logger.info("Created new cache file: " + filePath);
+            }
+        } catch (IOException e) {
+            logger.log(Level.SEVERE, "Error creating cache file: " + filePath, e);
+        }
+    }
+
+    private void loadCacheFromFile() {
         try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
             String line;
             while ((line = reader.readLine()) != null) {
@@ -31,7 +47,6 @@ public class CacheManager {
     }
 
     public void savePrimes(Set<Integer> primes) {
-        String filePath = "src/main/resources/cache/prime_cache.txt";
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(filePath, true))) {
             for (Integer prime : primes) {
                 if (cache.add(prime)) {
